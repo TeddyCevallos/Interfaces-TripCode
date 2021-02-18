@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384
+  -50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="imagenes/utmath.ico">
+  <title>TripCode</title>
+</head>
+
+<body>
+  <header class="header">
+    <img src="media/img/robot-human.jpeg" alt="">
+    <div class="titulo">
+      <h1>TripCode</h1>
+      <p>Tienda Digital</p>
+    </div>
+    <div class="navegacion">
+      <a href="index.html">
+        <img src="media/img/Code Trip.jpg" alt="">
+      </a>
+      <ul id="menu">
+        <li><a href="software.html">Software</a>
+          <ul>
+            <li><a href="software.html#so">Sistemas Operativos </a> </li>
+            <li><a href="software.html#tool">Herramientas</a> </li>
+            <li><a href="software.html#anti">Antivirus</a></li>
+          </ul>
+        </li>
+        <li><a href="hardware.html">Hardware</a>
+          <ul>
+            <li><a href="hardware.html#mobile">Mobile</a> </li>
+            <li><a href="hardware.html#tv">TV & Home</a> </li>
+            <li><a href="hardware.html#info">Informatic</a> </li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Collage</a></li>
+      </ul>
+      <a href="#" id="icono" onclick="document.getElementById('back').style.display='block'"><i class="fas fa-bars"></i></a>
+
+    </div>
+  </header>
+  <section class="back" id="back">
+    <ul class="submenu" id="submenu">
+      <button type="button" id="cerrar" name="button" onclick="document.getElementById('back').style.display='none';"><i class="fas fa-angle-up"></i> </button>
+      <li>
+        <h3>Iniciar Sesion</h3>
+      </li>
+      <li>
+        <label for=""> <i class="fas fa-user"></i>Nombre de Usuario </label><br>
+        <input type="text" name="" value="" placeholder="Direccion de Correo" id="username" required><br>
+      </li>
+      <li>
+        <label for=""><i class="fas fa-key"></i>Contraseña </label><br>
+        <input type="password" name="" value="" placeholder="Digite la Contraseña" id="password" required> <br>
+      </li>
+      <li>
+        <button type="button" name="button" id="acceso">Acceder</button>
+      </li>
+      <li>
+        <a href="#">
+          <p class="olvido">¿Olvido su contraseña?</p>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <main class="main">
+    <section class="studio">
+
+      <div class="studio-img">
+        <img src="media/img/watch1.jpg" alt="">
+      </div>
+      <div class="studio-img">
+        <img src="media/img/mi-smart.jpg" alt="">
+      </div>
+      <div class="studio-img">
+        <img src="media/img/PC.jpg" alt="">
+      </div>
+      <div class="studio-img">
+        <img src="media/img/dfg.png" alt="">
+      </div>
+
+
+    </section>
+  </main>
+  <article class="article">
+    <video src="media/business.mp4" controls loop muted poster="posterimage.jpg" width="250px" height="520px">
+    </video><video src="media/development.mp4" autoplay loop muted poster="posterimage.jpg" width="250px" height="250px">
+    </video>
+  </article>
+
+  <footer class="foter">
+    <div class="pie-der">
+      <img src="media/img/Code Trip.jpg" alt="">
+      <h1>CodeTrip</h1>
+      <p>Tienda Digital</p>
+    </div>
+    <div class="pie-center">
+      <ul>
+        <li class="lis"><a href="software.html">Software</a>
+          <ul>
+            <li><a href="software.html#so">Sistemas Operativos </a> </li>
+            <li><a href="software.html#tool">Herramientas</a> </li>
+            <li><a href="software.html#anti">Antivirus</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+    <div class="pie-center">
+      <ul>
+        <li class="lis"><a href="hardware.html">Hardware</a>
+          <ul>
+            <li><a href="hardware.html#mobile">Mobile</a> </li>
+            <li><a href="hardware.html#tv">TV & Home</a> </li>
+            <li><a href="hardware.html#info">Informatic</a> </li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+    <div class="pie-center">
+      <ul>
+        <li class="lis"><a href="contact.html">Contact</a></li>
+        <li class="lis"><a href="gallery.html">Collage</a></li>
+      </ul>
+    </div>
+    <div class="pie-izq">
+      <ul>
+        <h4><b> Follow CodeTrip!</b></h4>
+        <li><a href="#" target="_blank"><i class="fab fa-facebook"></i>Facebook</a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-youtube"></i>YouTube</a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
+        <li><a href="http://fci.utm.edu.ec:88/evirtual/" target="_blank"><i class="fab fa-twitter"></i>FCI</a></li>
+      </ul>
+    </div>
+    <p>Copyright &copy 2020 Code Trip | All Rights Reserved</p>
+  </footer>
+  <script src="main.js">
+
+  </script>
+</body>
+
+</html>
